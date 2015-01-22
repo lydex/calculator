@@ -3,51 +3,153 @@ body {
 span{
 	float: right;
 	color: pink;
-	margin-left: 10px;
+	margin-right: 13px;
+	font-family: Tahoma;
 }
-div{
-	width: 280px;
-	height: 420px;
+
+#main {
+	width: 245px;
+	height: 460px;
 	border: 1px solid black;
 	padding: 10px;
 	border-radius: 20px;
 	background-color: grey;
 	margin: auto;
 }
-div div {
+
+.workarea {
 	border: 1px solid red;
-	width: 220px;
 	background-color: white;
 	border-radius: 10px;
+	padding: 10px;
 }
 #input{
 	text-align: right;
-	height: 20px;	
-	margin-top: 30px;
-	vertical-align: middle;
-
+	height: 50px;	
+	margin-top: 10px;
+	padding: 5px;
+	width: 243px;
 }
 
 #selection{
-
-	height: 300px;	
-	margin-top: 10px
+	padding: 10px;
+	height: 340px;	
+	width: 220px;
+	margin-top: 10px;
+	margin-right: 5px
 }
 
-button{
+.buttons{
 	width: 50px;
 	height: 50px;
-	margin: auto;
+	margin-top: 5px;
 	display: inline-block;
 	color: blue;
 	border-radius: 10px;
+	padding: 10px;
+}
+
+.buttons:hover {
+	background-color: black;
+	color: white;
+	box-shadow: 0px 4px grey, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 #butteq{
-	width: 158px;
-
+	width: 103px;
+	background-color: red;
+	color:white;
 }
 
-#exit{
-	color: red;
+#butteq:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px red, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#root{
+	background-color: red;
+	color:white;
+}
+
+#root:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px red, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+#plus{
+	background-color: red;
+	color:white;
+}
+
+#plus:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px red, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#min{
+	background-color: red;
+	color:white;
+}
+
+#min:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px red, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+#prod{
+	background-color: red;
+	color:white;
+}
+#prod:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px red, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+#divide{
+	background-color: red;
+	color:white;
+}
+#divide:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px red, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+#sqr{
+	background-color: red;
+	color:white;
+}
+#sqr:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px red, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+#sin{
+	color: white;
+	background-color: blue;
+}
+
+#cos{
+	color: white;
+	background-color: blue;
+}
+#tan{
+	color: white;
+	background-color: blue;
+}
+#tan:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px blue, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+#cos:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px blue, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+#sin:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 0px 4px blue, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
