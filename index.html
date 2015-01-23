@@ -1,37 +1,40 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/script.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="main"> <span>MY CALCULATOR</span>
-			<div ><input type="text" readonly size="32" value="0" class="workarea" id="input"/></div>
+			
+			<div ><input type="text" name="display" readonly size="32" class="workarea" id="input"/></div>
 			<div id="selection" class="workarea">
-				<button class="buttons" id="sin">sin</button>
-				<button class="buttons" id="cos">cos</button>
-				<button class="buttons" id="tan">tan</button>
-				<button class="buttons" id="sqr">^</button>
-				<button class="buttons">7</button>
-				<button class="buttons">8</button>
-				<button class="buttons">9</button>
-				<button class="buttons" id="divide">/</button>
-				<button class="buttons">4</button>
-				<button class="buttons">5</button>
-				<button class="buttons">6</button>
-				<button class="buttons" id="prod">*</button>			
-				<button class="buttons">1</button>
-				<button class="buttons">2</button>
-				<button class="buttons">3</button>
-				<button class="buttons" id="min">-</button>			
-				<button class="buttons">0</button>
-				<button class="buttons">.</button>
-				<button class="buttons" id="plus">+</button>	
-				<button id="root" class= "buttons">Sqrt</button>
-				<button class="buttons">C</button>
-				<button class="buttons"><--</button>
-				<button id="butteq" class="buttons">=</button>
-				
-				
+				<button class="buttons" id="sin" value="sin">sin</button>
+				<button class="buttons" id="cos" value="cos">cos</button>
+				<button class="buttons" id="tan" value="tan" >tan</button>
+				<button class="buttons" id="sqr" value="^" >^</button>
+				<button class="buttons" value="7">7</button>
+				<button class="buttons" value="8">8</button>
+				<button class="buttons" value="9">9</button>
+				<button class="buttons" value="/"id="divide">/</button>
+				<button class="buttons" value="4" >4</button>
+				<button class="buttons" value="5" >5</button>
+				<button class="buttons" value="6" >6</button>
+				<button class="buttons" id="prod" value="*" >*</button>			
+				<button class="buttons" value="1" >1</button>
+				<button class="buttons" value="2" >2</button>
+				<button class="buttons" value="3" >3</button>
+				<button class="buttons" value="-" id="min">-</button>		
+				<button class="buttons" value="0" >0</button>
+				<button class="buttons" value="." >.</button>
+				<button class="buttons" value="+"id="plus" >+</button>	
+				<button id="root" class="buttons" >Sqrt</button>
+				<button class="buttons" value="c" >C</button>
+				<!--<button class="buttons" value="<--" ><--</button> -->
+				<button id="butteq" class="buttons" value="=">=</button>			
 			</div>
+			
 		</div>
 	</body>
 </html>
